@@ -1,0 +1,14 @@
+version: 1.0.{build}
+os: Visual Studio 2015
+install:
+- ps: >-
+    ./InstallDnx.ps1
+build:
+  verbosity: minimal
+after_build:
+- dnu pack --framework dotnet --configuration release src/GaumontPathe.GaumontPatheApi
+test_script:
+- dnx --project test/GaumontPathe.GaumontPatheApi.Test test
+artifacts:
+- path: src/GaumontPathe.GaumontPatheApi/bin/release/*.nupkg
+  name: GaumontPathe.GaumontPatheApi

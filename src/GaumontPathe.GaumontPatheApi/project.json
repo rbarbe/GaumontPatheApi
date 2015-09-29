@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0-*",
+  "title": "Gaumont Pathe Web Api client",
+  "description": "Gaumont Pathe Web Api client",
+  "authors": [ "Roland Barbe" ],
+  "owners": [ "Roland Barbe" ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rbarbe/GaumontPatheApi"
+  },
+  "tags": [ "gaumont", "pathe", "cinema" ],
+  "projectUrl": "https://github.com/rbarbe/GaumontPatheApi",
+  "licenseUrl": "https://raw.githubusercontent.com/rbarbe/GaumontPatheApi/master/LICENSE",
+  "frameworks": {
+    "dotnet": { },
+    "dnxcore50": { }
+  },
+  "dependencies": {
+    "Newtonsoft.Json": "7.0.1",
+    "System.Net.Http": "4.0.0"
+  }
+}

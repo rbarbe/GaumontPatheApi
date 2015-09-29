@@ -1,0 +1,25 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "GaumontPathe.GaumontPatheApi.Test test project",
+  "authors": [ "Roland Barbe" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "dependencies": {
+    "GaumontPathe.GaumontPatheApi": "1.0.0-*",
+    "Microsoft.CSharp": "4.0.0",
+    "System.Collections": "4.0.10",
+    "System.Linq": "4.0.0",
+    "System.Threading": "4.0.10",
+    "xunit": "2.1.0",
+    "xunit.runner.dnx": "2.1.0-beta5a-build188"
+  },
+  "commands": {
+    "test": "xunit.runner.dnx"
+  },
+
+  "frameworks" : {
+    "dnxcore50" : { }
+  }
+}
